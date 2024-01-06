@@ -1,0 +1,17 @@
+# Jupyter Notebook files
+.ipynb_checkpoints/
+
+# Jupyter Notebook checkpoints
+**/.ipynb_checkpoints
+
+# Jupyter Notebook kernel metadata
+**/.ipynb_checkpoints/*.json
+
+# Jupyter Notebook temporary files
+**/*.ipynb~
+**/*.nbconvert.ipynb
+**/__pycache__/
+
+# Project specific files
+Acute Aquatic Toxicity Prediction.pdf
+IMP-PCMLAI-M25-final-project-templates/
