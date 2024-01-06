@@ -15,3 +15,6 @@
 # Project specific files
 Acute Aquatic Toxicity Prediction.pdf
 IMP-PCMLAI-M25-final-project-templates/
+
+# System files
+.DS_Store
