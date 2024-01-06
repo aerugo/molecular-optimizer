@@ -2,6 +2,10 @@ This model is designed to predict the aquatic toxicity of chemical compounds, ai
 
 The model is specifically tuned for the aquatic toxicity prediction task by ensuring reproducibility through random seed initialization, enhancing grid search for continuous spaces, and removing dependencies on outdated libraries. It's evaluated based on its ability to converge towards compounds with the lowest toxicity within a given chemical space, using the rank and mean of maximum toxicity values found across multiple tests.
 
+## Using the Model
+
+See the implementation [in the Jupyter notebook](https://github.com/aerugo/molecular-optimizer/blob/main/turbo_for_QSAR_aquatic_toxicity.ipynb).
+
 ## Model Description
 
 ### Input
