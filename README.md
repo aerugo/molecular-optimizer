@@ -1,4 +1,6 @@
-# Model Card
+This model is designed to predict the aquatic toxicity of chemical compounds, aimed at suggesting molecular properties that result in low toxicity to marine life. It takes in eight continuous variables representing molecular descriptors of a compound as input and outputs a single continuous variable indicating the compound's aquatic toxicity effect. The model uses the Trust Region Bayesian Optimization (TuRBO) algorithm, which is an efficient method for optimizing functions with many local optima by adaptively modifying the search region. This algorithm, while not developed by the Optuna team, was adapted from their submission for the NeurIPS 2020 competition, demonstrating its effectiveness for complex problems.
+
+The model is specifically tuned for the aquatic toxicity prediction task by ensuring reproducibility through random seed initialization, enhancing grid search for continuous spaces, and removing dependencies on outdated libraries. It's evaluated based on its ability to converge towards compounds with the lowest toxicity within a given chemical space, using the rank and mean of maximum toxicity values found across multiple tests.
 
 ## Model Description
 
